@@ -2,6 +2,39 @@
     list-style-type: none;
 }
 
-.skill {
-    border-bottom: 1px solid white;
+.about-text {
+    font-weight: 300;
+}
+
+.about-button {
+   background-color: transparent;
+   border: 2px solid #0d3b70;
+   color: #0d3b70;
+   font-size: 1rem;
+   font-weight: 400;
+   transition: ease-in-out 0.3s;
+}
+
+.about-button a {
+    text-decoration: none;
+    color: #0d3b70;
+    transition: ease-in-out 0.3s;
+    background-color: transparent
+}
+
+.about-button:hover {
+    background-color: #0d3b70;
+    color: #fff;
+    transition: ease-in-out 0.3s;
+    box-shadow: 0 5px 10px -6px #0000008a;
+ }
+
+.about-button:hover > a {
+    color: #fff;
+ }
+
+@media screen and (max-width: 960px) {
+    .about-text {
+        padding: 25px;
+    }
 }

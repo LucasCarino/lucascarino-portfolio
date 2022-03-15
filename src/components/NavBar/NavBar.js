@@ -22,19 +22,16 @@ class NavBar extends Component {
     render() {
         return (
             <React.Fragment>
-                <nav className='nav-bar sticky row mx-0'>
-                    <div className='col-md-1'>
-
-                    </div>
-                    <div className='col-md-3 mx-0 px-0'>
-                        <div className="menu-icon me-5" onClick={this.handleClickMobile}>
+                <nav className='nav-bar sticky mx-0'>
+                    <div className='mx-0 px-0 w-25'>
+                        <div className="menu-icon ms-4" onClick={this.handleClickMobile}>
                             <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                         </div>
                         <ul className={this.state.clicked ? 'nav-menu active mb-0' : 'nav-menu mb-0'}>
                             {links.map((link) => {
                                 return (
-                                    <li key={link.id}>
-                                        <a href={link.url} onClick={this.handleClick}
+                                    <li key={link.id} className="py-3">
+                                        <a href={link.url} onClick={this.handleClick} className="text-decoration-none text-uppercase"
                                             >
                                             {link.text}
                                         </a>
@@ -42,14 +39,6 @@ class NavBar extends Component {
                                 )
                             })}
                         </ul>
-
-                        {/* <div>
-                            {links.map((link) => {
-                                return <a href={link.url} key={link.id} onClick={this.handleClick}>
-                                    {link.text}
-                                </a>
-                            })}
-                        </div> */}
                     </div>
                 </nav>
             </React.Fragment>

@@ -9,18 +9,18 @@ class About extends Component {
         return (
             <React.Fragment>
                 <section id='projects' className='projects d-flex align-items-center flex-wrap container' >
-
-                    <div className="row justify-content-around align-items-center">
+                    <div className="row">
+                        <h1 className='text-uppercase title-projects pb-5'>proyectos</h1>
                         {ProjectsItems.map((project, index) => {
                             return (
-                                // <div>
+                                <div className='col-md-4 d-flex justify-content-center'>
                                     <div class="img-container">
-                                        <img src="https://images.unsplash.com/photo-1488628075628-e876f502d67a?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=" className='img-projects'/>
-                                        <p class="title">Titulo de la app</p>
+                                        <img src={require("../../assets/img/" + project.img)} className='img-projects' />
+                                        <p class="title">{project.title}</p>
                                         <div class="overlay"></div>
-                                        <div class="button"><a href="#">Visitar pagina</a></div>
+                                        <div class="button"><a href={project.url}>Visitar pagina</a></div>
                                     </div>
-                                // </div>
+                                </div>
                             )
                         })}
                     </div>

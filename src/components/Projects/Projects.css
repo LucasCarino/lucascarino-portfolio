@@ -11,20 +11,21 @@
   left: 0;
   width: 100%;
   height: 222px;
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
   transition: background 0.5s ease;
-
 }
 
 .img-container:hover .overlay {
   display: block;
-  background: rgba(0, 0, 0, .3);
+  background: #0d3b7077;
 }
 
 .img-projects {
   position: absolute;
   width: 100%;
   left: 0;
+  height: 220px;
+  object-fit: cover;
 }
 
 .title {
@@ -32,8 +33,8 @@
   width: 100%;
   left: 0;
   top: 95px;
-  font-weight: 700;
-  font-size: 30px;
+  font-weight: 500;
+  font-size: 25px;
   text-align: center;
   text-transform: uppercase;
   color: white;
@@ -43,6 +44,10 @@
 
 .img-container:hover .title {
   top: 70px;
+}
+
+.title-projects {
+  font-weight: 300;
 }
 
 .button {
@@ -57,11 +62,15 @@
 
 .button a {
   width: 200px;
-  padding: 12px 48px;
+  padding: 12px 24px;
   text-align: center;
   color: white;
   border: solid 2px white;
   z-index: 1;
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #0d3b70c0;
 }
 
 .img-container:hover .button {

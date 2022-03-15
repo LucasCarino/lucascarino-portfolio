@@ -1,3 +1,7 @@
+* {
+    font-family: 'Assistant', sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -12,7 +16,7 @@ h1 {
 .projects,
 .contact,
 .rest {
-    min-height: 92vh;
+    min-height: 91.5vh;
     text-align: center;
 }
 
@@ -20,15 +24,9 @@ html {
     scroll-behavior: smooth;
 }
 
-.home {
-    background-color: rgb(116, 116, 255);
-}
-.about {
-    background-color: rgb(255, 183, 116);
-}
 
 .contact {
-    background-color: rgb(206, 168, 238);
+    background-color: #0d3b70;
 }
 
 .text-justify{

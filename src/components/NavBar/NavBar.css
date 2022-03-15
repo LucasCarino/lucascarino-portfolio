@@ -8,6 +8,17 @@
     height: 64px;
     align-items: center;
     z-index: 999;
+    box-shadow: inset 0 -15px 20px -10px #0000008a;
+    font-weight: 300;
+}
+
+.nav-bar ul li a {
+    color: #080a3f
+}
+
+.nav-bar ul li a:hover {
+    color: black;
+    transition: ease-in-out 0.5s;
 }
 
 .sticky {
@@ -23,12 +34,11 @@
     justify-content: space-between;
     list-style: none;
     text-align: center;
+    padding-left: 34%;
+    width: 500px;
 }
 
 @media screen and (max-width: 960px) {
-    .nav-menu {
-        justify-content: flex-end !important;
-    }
 
     .menu-icon {
         display: block;
@@ -44,10 +54,10 @@
         width: 100%;
         position: absolute;
         align-items: center;
-        top: 120px;
         left: -100%;
         opacity: 1;
         transition: all 0.5s ease;
+        top: 64px;
     }
 
     .nav-menu.active {

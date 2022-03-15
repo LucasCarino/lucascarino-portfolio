@@ -1,26 +1,26 @@
 export const ProjectsItems = [
-    {
-        image: 'img-perfil.png',
-        alt: '1',
+    {   
+        id: 1,
+        title: 'Conexión AG',
+        img: 'ag.gif',
+        url: 'https://conexionag.com.ar/'
     },
-    {
-        image: 'img-perfil.png',
-        alt: '1',
+    {   
+        id: 2,
+        title: 'SMC 360',
+        img: 'smc.gif',
+        url: 'https://smc360.herokuapp.com/'
     },
-    {
-        image: 'img-perfil.png',
-        alt: '1',
+    {   
+        id: 3,
+        title: 'Digital Travels',
+        img: 'dt.gif',
+        url: 'https://digital-travels.herokuapp.com/'
     },
-    {
-        image: 'img-perfil.png',
-        alt: '1',
-    },
-    {
-        image: 'img-perfil.png',
-        alt: '1',
-    },
-    {
-        image: 'img-perfil.png',
-        alt: '1',
+    {   
+        id: 4,
+        title: 'Mercado Libre (replica)',
+        img: 'ml.gif',
+        url: 'https://mercado-libre-simulator.herokuapp.com/'
     },
 ]

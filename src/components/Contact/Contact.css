@@ -39,7 +39,7 @@ input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
 /* on hover placeholder */
 
 input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
-  color: #e2dedb;
+  color: #000000;
   font-size: 0.875em;
 }
 
@@ -48,7 +48,7 @@ input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-inpu
 }
 
 input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
-  color: #e2dedb;
+  color: #000000;
   font-size: 0.875em;
 }
 
@@ -57,7 +57,7 @@ input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
 }
 
 input:hover::placeholder, textarea:hover::placeholder {
-  color: #e2dedb;
+  color: #000000;
   font-size: 0.875em;
 }
 
@@ -66,7 +66,7 @@ input:hover:focus::placeholder, textarea:hover:focus::placeholder {
 }
 
 input:hover::placeholder, textarea:hover::placeholder {
-  color: #e2dedb;
+  color: #000000;
   font-size: 0.875em;
 }
 
@@ -97,9 +97,9 @@ input {
   
   background: transparent;
   outline: none;
-  color: #726659;
+  color: #fff;
   
-  border: solid 1px #6e3309;
+  border: solid 1px #fff;
   border-bottom: none;
   
   transition: all 0.3s ease-in-out;
@@ -109,8 +109,8 @@ input {
 }
 
 input:hover {
-  background: #6e3309;
-  color: #e2dedb;
+  background: #fff;
+  color: #000000;
 }
 
 textarea {
@@ -123,11 +123,11 @@ textarea {
   background: transparent;
   outline: none;
   
-  color: #726659;
+  color: #fff;
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
   
-  border: solid 1px #6e3309;
+  border: solid 1px #fff;
   
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -136,8 +136,8 @@ textarea {
 }
 
 textarea:hover {
-  background: #6e3309;
-  color: #e2dedb;
+  background: #fff;
+  color: #000000;
 }
 
 #submit {
@@ -148,17 +148,17 @@ textarea:hover {
   
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
-  color: #6e3309;
+  color: #fff;
   
   outline:none;
   cursor: pointer;
   
-  border: solid 1px #6e3309;
+  border: solid 1px #fff;
   border-top: none;
 }
 
 #submit:hover {
-  color: #e2dedb;
+  color: #000000;
 }
 
 @media screen and (max-width: 960px) {
