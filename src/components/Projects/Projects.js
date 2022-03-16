@@ -8,14 +8,14 @@ class About extends Component {
     render() {
         return (
             <React.Fragment>
-                <section id='projects' className='projects d-flex align-items-center flex-wrap container' >
+                <section id='projects' className='projects d-flex align-items-center flex-wrap container mb-5' >
                     <div className="row">
                         <h1 className='text-uppercase title-projects pb-5'>proyectos</h1>
                         {ProjectsItems.map((project, index) => {
                             return (
                                 <div className='col-md-4 d-flex justify-content-center'>
                                     <div class="img-container">
-                                        <img src={require("../../assets/img/" + project.img)} className='img-projects' />
+                                        <img src={require("../../assets/img/" + project.img)} className='img-projects' alt='img-proyecto'/>
                                         <p class="title">{project.title}</p>
                                         <div class="overlay"></div>
                                         <div class="button"><a href={project.url}>Visitar pagina</a></div>

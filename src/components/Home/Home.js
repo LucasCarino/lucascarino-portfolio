@@ -13,15 +13,15 @@ class Home extends Component {
                 <section id='home' className='home d-flex align-items-center flex-wrap justify-content-center'>
                     <section class="hero pt-5">
                         <div class="content">
-                    
+
                             <div className='row'>
                                 <div className='col-md-12 align-self-center'>
-                                    <img src={img_perfil} className='img-thumbnail img-custom m-3' />
+                                    <img src={img_perfil} className='img-thumbnail img-custom m-3' alt="foto-perfil" />
                                 </div>
                                 <div className='w-100' />
                                 <div className='w-100 col-md-12 align-self-center d-flex flex-column align-items-center ' >
                                     <h2 className='h1'>Lucas Carino</h2>
-                                    <hr className='home-hr'/>
+                                    <hr className='home-hr' />
                                     <h5>DESARROLLADOR FRONT-END</h5>
                                 </div>
                                 <div className='w-100' />
@@ -31,12 +31,15 @@ class Home extends Component {
                                             {SocialItems.map((item, index) => {
                                                 return (
                                                     <li>
-                                                        <a className={item.cName} href={item.url} target="_blank">
-                                                            {item.title}
+                                                        <a className={item.cName} href={item.url} target="_blank" rel="noreferrer">
                                                         </a>
                                                     </li>
                                                 )
                                             })}
+                                            <li>
+                                                <a className="fa-solid fa fa-file social-icon" href={require('../../assets/files/CV_Lucas_Carino.pdf')} download>
+                                                </a>
+                                            </li>
                                         </div>
                                     </ul>
                                 </div>

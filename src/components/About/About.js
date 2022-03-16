@@ -9,7 +9,7 @@ class About extends Component {
         return (
             <React.Fragment>
                 <section id='about' className='about d-flex align-items-center flex-wrap'>
-                    <div className='row d-flex justify-content-around'>
+                    <div className='row d-flex justify-content-around w-100'>
                         <div className='col-md-4 px-5 pb-3'>
                             <h1 className='text-start'><b>¡Hello World!</b></h1>
                             <p className='text-justify'>
