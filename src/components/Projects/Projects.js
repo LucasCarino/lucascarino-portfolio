@@ -14,11 +14,11 @@ class About extends Component {
                         {ProjectsItems.map((project, index) => {
                             return (
                                 <div className='col-md-4 d-flex justify-content-center'>
-                                    <div class="img-container">
+                                    <div className="img-container">
                                         <img src={require("../../assets/img/" + project.img)} className='img-projects' alt='img-proyecto'/>
-                                        <p class="title">{project.title}</p>
-                                        <div class="overlay"></div>
-                                        <div class="button"><a href={project.url}>Visitar pagina</a></div>
+                                        <p className="title">{project.title}</p>
+                                        <div className="overlay"></div>
+                                        <div className="button"><a href={project.url}>Visitar pagina</a></div>
                                     </div>
                                 </div>
                             )

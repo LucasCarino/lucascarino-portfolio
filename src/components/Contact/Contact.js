@@ -88,7 +88,7 @@ class Contact extends Component {
             <React.Fragment>
                 <section className='contact d-flex flex-column justify-content-center align-items-center text-white' id='contact'>
                     <header className='text-uppercase'>Contacto</header>
-                    <form id="form" class="topBefore" onSubmit={this.contactSubmit.bind(this)}>
+                    <form id="form" className="topBefore" onSubmit={this.contactSubmit.bind(this)}>
                         <input refs="name" id="name" name="name" type="text" placeholder="NOMBRE *" onChange={this.handleChange.bind(this, "name")} value={this.state.fields["name"]} />
                         <span className="error error-name">{this.state.errors["name"]}</span>
                         <input refs="email" id="email" name="email" type="text" placeholder="E-MAIL *" onChange={this.handleChange.bind(this, "email")} value={this.state.fields["email"]} />

@@ -11,8 +11,8 @@ class Home extends Component {
         return (
             <React.Fragment>
                 <section id='home' className='home d-flex align-items-center flex-wrap justify-content-center'>
-                    <section class="hero pt-5">
-                        <div class="content">
+                    <section className="hero pt-5">
+                        <div className="content">
 
                             <div className='row'>
                                 <div className='col-md-12 align-self-center'>
@@ -45,7 +45,7 @@ class Home extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div class="waves"></div>
+                        <div className="waves"></div>
                     </section>
                 </section>
             </React.Fragment>
