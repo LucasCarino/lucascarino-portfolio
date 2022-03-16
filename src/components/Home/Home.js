@@ -37,7 +37,7 @@ class Home extends Component {
                                                 )
                                             })}
                                             <li>
-                                                <a className="fa-solid fa fa-file social-icon" target="_blank" href="https://drive.google.com/file/d/1Kp9cEUATDsgBrt_dXR_AeAlHchK9TM-w/view?usp=sharing">
+                                                <a className="fa-solid fa fa-file social-icon" href={require('../../assets/files/CV_Lucas_Carino.pdf')} download>
                                                 </a>
                                             </li>
                                         </div>
