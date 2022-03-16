@@ -22,7 +22,7 @@ class About extends Component {
                                 Mi objetivo personal de desempeñar, ofrecer y desarrollar diferentes capacidades para poder conseguir un excelente resultado en la labor y el área asignada.
                             </p>
                             <div>
-                                <button className='about-button text-uppercase mx-4 px-4 py-1'><a href={require('../../assets/files/CV_Lucas_Carino.pdf')} download>CV</a></button>
+                                <button className='about-button text-uppercase mx-4 px-4 py-1'><a href="https://drive.google.com/file/d/1Kp9cEUATDsgBrt_dXR_AeAlHchK9TM-w/view?usp=sharing" target="_blank">CV</a></button>
                                 <button className='about-button text-uppercase mx-4 px-4 py-1'><a href='#contact'>Contactame</a></button>
                             </div>
                         </div>
