@@ -108,7 +108,7 @@ input {
   -ms-transition: all 0.3s ease-in-out;
 }
 
-button {
+.button-contact {
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
   width: 100%;

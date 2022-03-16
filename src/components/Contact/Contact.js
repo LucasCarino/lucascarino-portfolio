@@ -96,7 +96,7 @@ class Contact extends Component {
                         <input id="phone" name="phone" type="number" placeholder="CELULAR" onChange={this.handleChange.bind(this, "phone")} value={this.state.fields["phone"]} />
                         <textarea id="message" name="message" type="text" placeholder="MENSAJE *" onChange={this.handleChange.bind(this, "message")} value={this.state.fields["message"]}></textarea>
                         <span className="error error-message">{this.state.errors["message"]}</span>
-                        <button id="submit" value="Submit">ENVIAR</button>
+                        <button id="submit" className="button-contact" value="Submit">ENVIAR</button>
                     </form>
                 </section>
             </React.Fragment>
